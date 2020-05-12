@@ -1,0 +1,35 @@
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    font-family: Impact;
+}
+
+body{
+    background-image: url("imagens/bodyImage.jpg");
+    background-size: auto 125vh;
+    backdrop-filter: blur(2px);
+    font-family: Arial;
+    height: 100vh;
+    margin: 0px;
+}
+
+.menu{
+    background-color: white;
+}
+
+.menu ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu li{
+    list-style: none;
+}
+
+.subtitle,
+.title{
+    text-align: center;
+    color: whitesmoke;
+}
